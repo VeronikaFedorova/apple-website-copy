@@ -28,7 +28,7 @@ const ModelView = ({
       } `}
     >
       {/* Ambient Light */}
-      <ambientLight intensity={3} />
+      <ambientLight intensity={8} />
 
       <PerspectiveCamera makeDefault position={[0, 0, 5]} />
       <Lights />
